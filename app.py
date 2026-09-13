@@ -1,3 +1,4 @@
+from pathlib import Path
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -80,7 +81,7 @@ st.markdown(
 @st.cache_data
 def load_jobs():
 
-    df = pd.read_csv("data/jobs.csv")
+    from pathlib import Path
 
     df["skills"] = df["skills"].fillna("")
     df["description"] = df["description"].fillna("")
