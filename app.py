@@ -84,12 +84,10 @@ def load_jobs():
     from pathlib import Path
 
     BASE_DIR = Path(__file__).resolve().parent
-        JOBS_FILE = BASE_DIR / "data" / "jobs.csv"
-         df = pd.read_csv(JOBS_FILE)
-         df["skills"] = 
-    df["skills"].fillna("")
-         df["description"] = 
-    df["description"].fillna("")
+    JOBS_FILE = BASE_DIR / "data" / "jobs.csv"
+    df = pd.read_csv(JOBS_FILE)
+    df["skills"] = df["skills"].fillna("")
+    df["description"] = df["description"].fillna("")
 
     return df
 
