@@ -1,0 +1,9 @@
+job_title,skills,description
+Python Developer,"python,sql,git,django,flask,api","Develop Python applications and REST APIs."
+Data Scientist,"python,machine learning,statistics,pandas,numpy,sql","Analyze data and build machine learning models."
+Machine Learning Engineer,"python,machine learning,tensorflow,pytorch,scikit-learn,sql","Build and deploy machine learning models."
+Data Analyst,"python,sql,excel,pandas,power bi,statistics","Analyze business data and create reports and dashboards."
+AI Engineer,"python,machine learning,deep learning,tensorflow,pytorch,nlp","Develop artificial intelligence and deep learning applications."
+Web Developer,"html,css,javascript,react,node.js,git","Develop responsive web applications."
+Backend Developer,"python,java,sql,api,django,flask,git","Build scalable backend services and APIs."
+Software Engineer,"python,java,c++,sql,git,data structures","Design and develop software applications."
